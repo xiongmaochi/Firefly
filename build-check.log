@@ -1,0 +1,15 @@
+﻿pnpm.exe : Error: ERR_PNPM_PNPM_ENGINE_IDENTITY_UNVERIFIABLE
+所在位置 D:\nodejs\pnpm.ps1:14 字符: 3
++   & "$basedir/node_modules/pnpm/pnpm.exe"   $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Error: ERR_PNPM...TY_UNVERIFIABLE:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+  × verify the package manager identity
+  ╰─▶ Refusing to run pnpm@11.22.0: its npm registry signature could not be
+      verified (@pnpm/win-x64@11.22.0: https://registry.npmjs.org/@pnpm%2Fwin-
+      x64: error decoding response body). The bytes its environment lockfile
+      pins, resolved through the configured package-manager registry, do not
+      match a published, signed release.
+
